@@ -12,7 +12,7 @@ class User(Base):
     id = Column(UUID(as_uuid = True) , primary_key = True , default = uuid.uuid4)
     created = Column(DateTime , nullable = False , default = datetime.datetime.utcnow)
     email = Column(String , nullable = False , unique = True)
-    tasks = relationship('Task' , back_populates = 'users')
+    tasks = relationship('Task' , back_populates = 'user')
 
 class Task(Base):
     __tablename__ = 'tasks'

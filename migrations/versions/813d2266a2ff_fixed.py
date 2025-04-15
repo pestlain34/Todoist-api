@@ -1,8 +1,8 @@
-"""Add User and Task models
+"""fixed
 
-Revision ID: 23644902b281
+Revision ID: 813d2266a2ff
 Revises: 
-Create Date: 2025-04-14 15:59:16.355565
+Create Date: 2025-04-15 14:54:32.995891
 
 """
 from typing import Sequence, Union
@@ -12,7 +12,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = '23644902b281'
+revision: str = '813d2266a2ff'
 down_revision: Union[str, None] = None
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
